@@ -1,7 +1,7 @@
 name: Build CCloader
 
 on:
-  workshop_dispatch:
+  workflow_dispatch:
     branches: [main, ci*]
     tags:
       - '*'
